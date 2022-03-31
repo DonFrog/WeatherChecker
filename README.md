@@ -1,4 +1,4 @@
-# Starting Point for project
+# Starting Point
 
 The starting point is an empty HTML file. We are going to build on top of this.
 
