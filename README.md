@@ -114,8 +114,8 @@ In the weather.js file add the following:-
     }
   Now when you click the button, it should display an alert that shows any values added for longitude/latitude.
 
-  ## Use OpenWeather API
-We're going to use the free openweather.org api to get the current weather at our location.
+  ## Use OpenWeatherMap API
+We're going to use the free openweathermap.org api to get the current weather at our location.
 Go to [https://home.openweathermap.org/users/sign_up](https://home.openweathermap.org/users/sign_up) and create an account. 
 When you have an account go to the API Key page and make a note of the key.
 
@@ -132,6 +132,7 @@ In weather.js add the following code:-
     	});
     }
 Replace API_KEY_HERE with your openweather key.
+You should get an error message here. Try to fix it.
 
 Next call this function from the getWeather() function. So it should now look like this:-
 
@@ -317,5 +318,6 @@ Next, we will tie the two systems together. We have already written a function, 
 ## Test It Out
 Reload the page, try clicking on the map. Does the table update?
 
-Stretch Goal 1 - can you update the default map location and/or zoom? (to the Colosseum in Rome)
+Stretch Goal 1 - can you update the default map location and/or zoom? (to the Colosseum in Rome).
 Stretch Goal 2 - can you update the size of the map on the page? 
+Stretch goal 3 - using another api from the same site, get the 5 day forecast and display it in a horizontal table.
