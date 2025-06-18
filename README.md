@@ -132,6 +132,7 @@ In weather.js add the following code:-
     	});
     }
 Replace API_KEY_HERE with your openweather key.
+
 You should get an error message here. Try to fix it.
 
 Next call this function from the getWeather() function. So it should now look like this:-
@@ -319,5 +320,7 @@ Next, we will tie the two systems together. We have already written a function, 
 Reload the page, try clicking on the map. Does the table update?
 
 Stretch Goal 1 - can you update the default map location and/or zoom? (to the Colosseum in Rome).
+
 Stretch Goal 2 - can you update the size of the map on the page? 
+
 Stretch goal 3 - using another api from the same site, get the 5 day forecast and display it in a horizontal table.
